@@ -1,4 +1,6 @@
 🔐 Python Password Strength Analyzer 🔐
+
+
 A robust command-line tool built to evaluate password strength against modern security criteria. This project serves as a practical exploration of cyber hygiene and secure credential practices.
 
 🚀 Project Overview
