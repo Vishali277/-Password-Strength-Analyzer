@@ -16,39 +16,10 @@ Actionable Feedback: Instantly tells the user exactly what is missing from their
 Interactive CLI: A simple and user-friendly command-line interface for easy testing.
 
 📊 Demonstration Results
-The tool was tested with a variety of passwords to demonstrate its analysis capabilities. The results are summarized below:
+The tool was tested with several passwords of varying complexity to demonstrate its analysis capabilities. The screenshot below shows the live output as the tool evaluates weak, medium, and strong passwords, providing instant feedback for each.
 
-Password Input
+The full set of test screenshots is available in the screenshots/ directory.
 
-Strength Rating
-
-Feedback Provided
-
-password
-
-Weak
-
-❌ Needs length, uppercase, number, & special character.
-
-Password123
-
-Medium
-
-❌ Missing a special character (e.g., !@#$%).
-
-S@fep4ssw0rd!
-
-Strong
-
-✅ All criteria met.
-
-12345
-
-Weak
-
-❌ Needs length, uppercase, lowercase, & special character.
-
-Screenshots of these live tests are available in the screenshots/ directory.
 
 💡 Key Concepts & Learnings
 Password Entropy: This project clearly shows that entropy (a measure of randomness and complexity) is crucial. Adding character variety and length makes a password exponentially more resistant to brute-force and dictionary attacks.
