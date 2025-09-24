@@ -1,37 +1,34 @@
-Task 10: Password Strength Checker
-This project is a simple command-line tool written in Python to check how strong a password is.
+Task 10: Password Strength Analyzer
+This project is a command-line tool built in Python to evaluate the strength of a given password based on common complexity rules.
 
 Objective
-The goal of this task was to build a tool that can analyze a password and give feedback on its strength. This helps in understanding what makes a good password and why security policies (like forcing users to add numbers and symbols) exist.
+The goal of this task was to build a functional password analyzer to gain a practical understanding of what constitutes a strong password. This exercise helps demonstrate key concepts in cyber hygiene, password policies, and basic input validation.
 
-How the Tool Works
-The Python script (password_checker.py) asks the user to enter a password. It then checks the password against a few common rules:
+Tools Used
+Python 3: The programming language used to build the script.
 
-Length: Is it at least 8 characters long?
+VS Code / Kali Linux Terminal: For code development and execution.
 
-Uppercase: Does it have at least one uppercase letter (A-Z)?
+How the Tool Works & Demonstration
+The script (password_checker.py) prompts a user to enter a password and analyzes it against the following criteria:
 
-Lowercase: Does it have at least one lowercase letter (a-z)?
+Length: Checks if the password is at least 8 characters long.
 
-Numbers: Does it have at least one number (0-9)?
+Character Variety: Checks for the presence of:
 
-Special Characters: Does it have at least one special character (like !, @, #, $)?
+Uppercase letters (A-Z)
 
-Based on how many rules the password follows, the tool gives it a score and rates it as Weak, Medium, or Strong. It also prints a list of recommendations for any rules that were missed.
+Lowercase letters (a-z)
 
-Demonstration
-The screenshot below demonstrates the tool analyzing several passwords of varying complexity and providing feedback:
+Numbers (0-9)
 
-What I Learned
-Why Complexity Matters: I learned that adding just one different type of character (like a number or a symbol) makes a password much harder for an attacker to guess or "brute-force."
+Special characters (!@#$%)
 
-The Importance of Length: A short password, even if it's complex, can be cracked much faster than a long one. Length is one of the most important factors for password security.
+Based on the results, the tool provides a strength rating (Weak, Medium, or Strong) and a list of specific recommendations for improvement. The screenshots in the screenshots folder demonstrate the tool analyzing passwords of varying complexity.
 
-Basic Python for Security: This task was a good way to see how simple programming can be used to build useful security tools and to understand concepts like input validation.
-
-Files in This Repository
+Files in Repository
 password_checker.py: The Python source code for the tool.
 
-README.md: This file.
+README.md: This summary file.
 
-demo.png: The screenshot showing the tool in action.
+demo.png: A folder containing usage demos of the tool analyzing weak, medium, and strong passwords.
